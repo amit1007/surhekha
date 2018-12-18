@@ -1,2 +1,12 @@
 HTTP : 18.218.46.41:80 -> USER: User_surekha16  PASS: password  INFO: http://user.suigeneriskids.com/
 CONTENT: username=User_surekha16&password=password
+
+
+root@earth-Vostro-3445:~# echo -n 18.218.46.41 | sha256sum
+56e12c169a79b339eb8816cd338299cebe666c2f608f6d7b27c646fbe14e6bc2  -
+root@earth-Vostro-3445:~# echo -n 18.218.46.41 | sha256sum
+56e12c169a79b339eb8816cd338299cebe666c2f608f6d7b27c646fbe14e6bc2  -
+root@earth-Vostro-3445:~# ssh-keygen -l -F 18.218.46.41
+# Host 18.218.46.41 found: line 2 
+18.218.46.41 ECDSA SHA256:3NixNMmmabuVO+Ej8EEdp6fh7167DB4FND4esuNoQi4 
+
